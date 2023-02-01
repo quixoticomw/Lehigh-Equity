@@ -1,0 +1,109 @@
+/*google font montserrat import*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F2EBE2;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 1px 10%;
+    border-bottom: 20px black;
+    background-color: white;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3 ease 0s;
+}
+
+.nav_links li a:hover {
+    color: rgb(217, 65, 93);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgb(244, 132, 162, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(241, 178, 189, 0.8);
+}
+
+/*end nav bar*/
+
+#box {
+    background: #F2EBE2;
+    font-family: "Montserrat", sans-serif;
+    border-width: 0em;
+    border-radius: 25px;
+    border-style: inset;
+    border-color:none;
+    width: 55em;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+p {
+    font-size: 15px;
+    color: black;
+}
+
+.row {
+    display: flex;
+  }
+
+/* Create two equal columns that sits next to each other */
+.column {
+    text-align: left;
+    flex: 50%;
+    padding: 20px;
+    height: auto;
+}
+
+.center {
+    text-align: center;
+}
+.right {
+    text-align: right;
+}
+
+.equity {
+    font-size: 14px;
+    text-align: center;
+}
